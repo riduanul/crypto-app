@@ -8,8 +8,9 @@ const Footer = () => {
           <p className="font-bold">About Us</p>
           <p className="font-small">
             We are the best crypto trading app in Bangladesh, We provide our
-            guidance at a very cheap price
+            guidance at a very cheap price.
           </p>
+          <p>Contact: +8801700000000</p>
         </div>
         <div className="text-center ">
           <img
