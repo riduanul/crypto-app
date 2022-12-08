@@ -97,14 +97,14 @@ function CoinDetails() {
               <button
                 key={i}
                 onClick={() => switchChartStates(i)}
-                className=" p-2 m-2 border rounded hover:bg-slate-800 hover:text-white "
+                className=" p-2 m-2 border rounded hover:bg-slate-800 hover:text-white text-slate-400"
               >
                 {i}
               </button>
             ))}
           </div>
 
-          <div className=" text-slate-600 mb-5 flex flex-row gap-3 justify-center ml-10">
+          <div className=" text-slate-400 mb-5 flex flex-row gap-3 justify-center ml-10">
             <label htmlFor="radiobtn1">
               BDT
               <input
@@ -141,8 +141,8 @@ function CoinDetails() {
               />
             </label>
           </div>
-          <div className="w-full flex flex-col items-center gap-3">
-            <p className="text-center text-slate-500">
+          <div className=" text-slate-400 w-full flex flex-col items-center gap-3">
+            <p className="text-center text-slate-400">
               Last Updated on:{" "}
               {Date(coin.market_data.last_updated).split("G")[0]}
             </p>
@@ -183,7 +183,7 @@ function CoinDetails() {
               </div>
             </div>
           </div>
-          <div className="mx-10">
+          <div className="mx-10 text-slate-400">
             <div className="flex justify-between w-full my-4 ">
               <p className="font-bold">Max Supply</p>
               <p className="text-xl">{`${currencySymbol} ${coin.market_data.max_supply}`}</p>
