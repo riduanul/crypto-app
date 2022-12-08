@@ -1,11 +1,11 @@
 import React from "react";
-import avatarimg from "../assets/avatar.jpg";
+import avatarimg from "../assets/pp.jpg";
 const Footer = () => {
   return (
-    <div className="px-10 py-10 bg-slate-900 text-white w-full">
+    <div className="px-10 py-10 bg-slate-900 text-white w-full text-orange-500">
       <div className="  h-full flex flex-col md:flex-row  justify-between items-center">
         <div className="text-">
-          <p>About Us</p>
+          <p className="font-bold">About Us</p>
           <p className="font-small">
             We are the best crypto trading app in Bangladesh, We provide our
             guidance at a very cheap price
@@ -17,7 +17,7 @@ const Footer = () => {
             src={avatarimg}
             alt="avatar-img"
           />
-          <h4>Our Founder</h4>
+          <h4 className="font-bold">Our Founder</h4>
         </div>
       </div>
     </div>
